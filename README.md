@@ -1,4 +1,4 @@
-# WebDriver TestNG Rest-Assured example
+# Rest-Assured example with TestNG testing framework.
 
 This project is generated from an archetype. It exists out of TestNG, Selenium WebDriver, 
 
