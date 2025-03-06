@@ -14,7 +14,6 @@
         <webdriver-event-listeners.version>0.6</webdriver-event-listeners.version>
         <aspectj.version>1.9.22.1</aspectj.version>
         <assertj-core.version>3.27.3</assertj-core.version>
-        <maven-compiler-plugin.version>4.0.0-beta-2</maven-compiler-plugin.version>
         <seleniumGrid>false</seleniumGrid>
         <seleniumGridUrl>http://ip:port/wd/hub</seleniumGridUrl>
         <seleniumBrowser>chrome</seleniumBrowser>
@@ -113,11 +112,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven-compiler-plugin.version}</version>
-                <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                </configuration>
+                <version>3.13.0</version>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
